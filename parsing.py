@@ -2,7 +2,7 @@ import pandas as pd
 import requests, json, xmltodict
 from datetime import datetime
 
-service_key="HbIdNnu11CRdCf7rs1LoIch7%2F%2BUidwG9qeOoRa%2FexudH8wCp2bzDHlN8yxSzVW19ae3zH2DjD3ewlLbI5C7XkQ%3D%3D"
+service_key="(use your key)"
 base_url='http://newsky2.kma.go.kr/service/VilageFrcstDspthDocInfoService/WidOverlandForecast?regId=11A00101&ServiceKey={0}'.format(service_key)
 js = requests.get(base_url)
 
